@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Rectangle 22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cozinha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cozinha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Situação de risco_ (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Situação de risco_ (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sensor de movimento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sensor de movimento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vazamento_ (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vazamento_ (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="power2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\power2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone - Fuego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone - Fuego.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rectangle 29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cômodo_ (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cômodo_ (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A faixa recomendável da temperatura interna da sua casa no verão deverá variar de 23ºC a 26ºC, com a faixa máxima entre 26,5ºC e 27ºC com exceção das áreas de acesso que poderão operar até 28ºC." type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A faixa recomendável da temperatura interna da sua casa no verão deverá variar de 23ºC a 26ºC, com a faixa máxima entre 26,5ºC e 27ºC com exceção das áreas de acesso que poderão operar até 28ºC..png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vazamento_ (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vazamento_ (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gas2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gas2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="power" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\power.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Filtrar _ (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Filtrar _ (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gás" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gás.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rectangle 20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="house3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\house3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gás (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gás (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A eletricidade da casa será desligada pelo sistema ForGated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A eletricidade da casa será desligada pelo sistema ForGated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GAS (1) 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GAS (1) 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone - Home (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone - Home (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp Image 2023-05-10 at 18.17.42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2023-05-10 at 18.17.42.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ForGated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ForGated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rectangle 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Energia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Energia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Situação de Risco_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Situação de Risco_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Temperatura_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Temperatura_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ÚLTIMOS REGISTROS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ÚLTIMOS REGISTROS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diante de qualquer vazamento, existem formas corretas para solucioná-lo. A seguir, você descobrirá os melhores procedimentos para a segurança de todos." type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diante de qualquer vazamento, existem formas corretas para solucioná-lo. A seguir, você descobrirá os melhores procedimentos para a segurança de todos..png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp Image 2023-05-05 at 16.34.32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2023-05-05 at 16.34.32.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Temperatura_ (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Temperatura_ (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Registro Atual_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Registro Atual_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rectangle 29 (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 29 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="extintor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\extintor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sensor de incêndio (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sensor de incêndio (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sensor de incêndio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sensor de incêndio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Temperatura_ (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Temperatura_ (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Feche o registro que permite a saída de gás do botijão" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Feche o registro que permite a saída de gás do botijão.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone - Sair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone - Sair.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="house2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\house2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Abra portas e janelas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Abra portas e janelas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone - Pesquisa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone - Pesquisa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Movimento Detectado_ (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Movimento Detectado_ (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone - Vídeo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone - Vídeo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rectangle 29 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 29 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cuidado com materiais inflamáveis!" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cuidado com materiais inflamáveis!.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Filtrar _" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Filtrar _.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cômodo_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cômodo_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Voltagem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voltagem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mao_fio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mao_fio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="My home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\My home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone - Energia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone - Energia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="My home1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\My home1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone - Fuego (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone - Fuego (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp Image 2023-05-05 at 16.18.08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2023-05-05 at 16.18.08.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cômodo_ (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cômodo_ (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Conecte-se e prossiga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Conecte-se e prossiga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="txtIncendio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\txtIncendio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Voltagem (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voltagem (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone - Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone - Home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sensor de proximidade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sensor de proximidade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rectangle 29 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 29 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diante de qualquer vazamento, existem formas corretas para solucioná-lo. A seguir, você descobrirá os melhores procedimentos para a segurança de todos. (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diante de qualquer vazamento, existem formas corretas para solucioná-lo. A seguir, você descobrirá os melhores procedimentos para a segurança de todos. (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MicrosoftTeams-image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MicrosoftTeams-image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="porta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\porta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vazamento_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vazamento_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Movimento Detectado_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Movimento Detectado_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Situação de risco_ (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Situação de risco_ (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nunca coloque papel toalha, papel alumínio e líquidos inflamáveis próximos ao fogão ou a outro equipamento de cocção." type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nunca coloque papel toalha, papel alumínio e líquidos inflamáveis próximos ao fogão ou a outro equipamento de cocção..png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone - Vídeo (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone - Vídeo (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone - Configurações" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone - Configurações.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ícone - Energia (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ícone - Energia (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gas2 (1) 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gas2 (1) 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Situação de Risco_ (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Situação de Risco_ (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sensor de proximidade (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sensor de proximidade (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Temperatura_ (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Temperatura_ (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Temperatura_ (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Temperatura_ (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tela de Login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tela de Login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Atenção à temperatura captada do ambiente!" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Atenção à temperatura captada do ambiente!.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

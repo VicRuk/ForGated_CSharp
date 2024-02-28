@@ -1,2 +1,2 @@
-# ForGated_CSharp
-Desenvolvido pelo grupo DAMNS. em seu projeto TCC na Etec de Registro.
+# AppTCC
+Aplicativo Mobile do grupo de TCC Damns

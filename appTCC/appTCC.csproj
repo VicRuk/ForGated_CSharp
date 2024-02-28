@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B38846E-B0A2-4FC0-9D94-96D229F1543B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>appTCC</RootNamespace>
+    <AssemblyName>appTCC</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="conexao.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grid.cs" />
+    <Compile Include="insert.cs" />
+    <Compile Include="login.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-05-05 at 16.18.08.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-05-05 at 16.34.32.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-05-10 at 18.17.42.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone - Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone - Fuego.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone - Energia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GAS %281%29 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone - Configurações.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone - Sair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\My home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MicrosoftTeams-image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\My home1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Voltagem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sensor de proximidade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gás.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cômodo_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sensor de incêndio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Registro Atual_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Situação de Risco_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vazamento_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Temperatura_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Situação de Risco_ %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Movimento Detectado_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone - Pesquisa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tela de Login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone - Vídeo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sensor de incêndio %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone - Home %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone - Fuego %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone - Energia %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Energia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gas2 %281%29 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ícone - Vídeo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ÚLTIMOS REGISTROS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 29 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 29 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Filtrar _.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Filtrar _ %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gás %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sensor de proximidade %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Temperatura_ %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Temperatura_ %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cômodo_ %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Situação de risco_ %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vazamento_ %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Situação de risco_ %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cômodo_ %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Temperatura_ %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Temperatura_ %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vazamento_ %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cozinha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gas2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diante de qualquer vazamento, existem formas corretas para solucioná-lo. A seguir, você descobrirá os melhores procedimentos para a segurança de todos..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diante de qualquer vazamento, existem formas corretas para solucioná-lo. A seguir, você descobrirá os melhores procedimentos para a segurança de todos. %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Feche o registro que permite a saída de gás do botijão.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Abra portas e janelas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A eletricidade da casa será desligada pelo sistema ForGated.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\extintor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\porta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Movimento Detectado_ %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ForGated.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Conecte-se e prossiga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mao_fio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Voltagem %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sensor de movimento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A faixa recomendável da temperatura interna da sua casa no verão deverá variar de 23ºC a 26ºC, com a faixa máxima entre 26,5ºC e 27ºC com exceção das áreas de acesso que poderão operar até 28ºC..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuidado com materiais inflamáveis!.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nunca coloque papel toalha, papel alumínio e líquidos inflamáveis próximos ao fogão ou a outro equipamento de cocção..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\txtIncendio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atenção à temperatura captada do ambiente!.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

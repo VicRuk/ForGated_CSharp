@@ -1,2 +1,10 @@
-# AppTCC
-Aplicativo Mobile do grupo de TCC Damns
+# ForGated C#
+Programa Desktop usado o programa Visual Studio 2015 com Windows Forms e a linguagem C# desenvolvido pelo Grupo DAMNS.
+
+<b>Membros:</b>
+Leandro Takeo Oyadomari
+Matheus Ferrari Abrahão
+Matheus Yamamoto Dias
+Victor Ryuki Tamezava
+
+Este trabalho aborda a crescente preocupação com a segurança domiciliar diante do aumento dos acidentes por incêndios, vazamentos de gás e outros riscos. É evidente a necessidade de soluções eficazes para proteger residências e moradores. O objetivo principal é desenvolver um sistema de monitoramento integrando arduíno, sensores e aplicativos, visando à detecção e prevenção de incêndios, vazamentos de gás e perigos diversos. As tecnologias utilizadas, foram empregadas linguagens de programação como HTML, PHP, JavaScript, C#, juntamente com ferramentas como Visual Studio Code para o desenvolvimento de aplicativos e sistemas. Interfaces simples foram criadas para interação com os sensores e dispositivos Arduino. Destacam-se as funcionalidades dos softwares e aplicativos, enfatizando o monitoramento e acesso aos dados dos sensores, além da integração para coleta e análise de informações. Através das informações obtidas, é possível por exemplo realizar monitoramento a distância e sempre estar atento com as informações obtidas pelo APP desenvolvido.

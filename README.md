@@ -1,7 +1,7 @@
 # ForGated C#
 Programa Desktop usado o programa Visual Studio 2015 com Windows Forms e a linguagem C# desenvolvido pelo Grupo DAMNS.
 
-<b>Membros:</b>
+<b>Membros:</b><br>
 Leandro Takeo Oyadomari<br>
 Matheus Ferrari Abrahão<br>
 Matheus Yamamoto Dias<br>
